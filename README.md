@@ -1,3 +1,7 @@
-L站发帖分享lianglianglee站点，评论区分享了很多备份，但是感觉都不全，这是最新的最全的
+# lianglianglee.com的备份
 
-docker build -f Dockerfile -t registry.cn-shanghai.aliyuncs.com/yvan329/lianglianglee:v1.0.0.0 . && docker push registry.cn-shanghai.aliyuncs.com/yvan329/lianglianglee:v1.0.0.0 
+## 前因
+##### 因为怕这个网站突然消失了，所以把这些资料都备份下来，还有就是因为L站发了个分享这个网站的帖子，评论下面也有其他人对这个网站备份了，但是看了觉得不是很齐全，所以动手备份了一个新的，包新的，包全的。
+
+## 食用
+##### 用了gin，直接跑起来就能访问了。端口8888，当然你也可以打包成docker镜像部署在自己的nas上
